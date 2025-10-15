@@ -37,7 +37,7 @@ jobs:
           appSourcePath: ${{ github.workspace }}
           _dockerfilePathKey_: _dockerfilePath_
           _targetLabelKey_: _targetLabel_
-          registryUrl: 
+          registryUrl: tru5tzz.azurecr.io
           registryUsername: ${{ secrets.CALIBREAUTOMATED_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.CALIBREAUTOMATED_REGISTRY_PASSWORD }}
           containerAppName: calibre-automated
