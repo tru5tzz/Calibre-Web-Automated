@@ -38,11 +38,8 @@ jobs:
           _dockerfilePathKey_: _dockerfilePath_
           _targetLabelKey_: _targetLabel_
           registryUrl: tru5tzz.azurecr.io
-          # registryUsername: ${{ secrets.CALIBREAUTOMATED_REGISTRY_USERNAME }}
-          # registryPassword: ${{ secrets.CALIBREAUTOMATED_REGISTRY_PASSWORD }}
           containerAppName: calibre-automated
           resourceGroup: personal_use
-          # imageToBuild: default/[parameters('containerAppName')]:${{ github.sha }}
           imageToBuild: tru5tzz.azurecr.io/calibre-automated:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
