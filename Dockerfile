@@ -58,11 +58,11 @@ RUN \
     xdg-utils \
     inotify-tools \
     python3.11 \
-    python3.11-pip \
+    python3-pip \
     nano \
     sqlite3 \
     zip \
-    python3.11-venv && \
+    python3-venv && \
   # STEP 1.2 - Set up a python virtual environment and install pip and wheel packages
   cd /app/calibre-web-automated && \
   python3 -m venv /lsiopy && \
