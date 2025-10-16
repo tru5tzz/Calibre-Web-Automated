@@ -45,7 +45,7 @@ RUN \
     libldap2-dev \
     libsasl2-dev \
     gettext \
-    python3-dev && \
+    python3.11-dev && \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
     imagemagick \
@@ -57,12 +57,12 @@ RUN \
     libxslt1.1 \
     xdg-utils \
     inotify-tools \
-    python3 \
-    python3-pip \
+    python3.11 \
+    python3.11-pip \
     nano \
     sqlite3 \
     zip \
-    python3-venv && \
+    python3.11-venv && \
   # STEP 1.2 - Set up a python virtual environment and install pip and wheel packages
   cd /app/calibre-web-automated && \
   python3 -m venv /lsiopy && \
